@@ -19,7 +19,7 @@ carArr.push({ wheel: 5, brand: 'Audi', type: 'coupe' })
 
 
 // Массив массивов (матрица) [[1, 2], [3, 4]]
-const arrOfArr: (number | boolean)[][] = [[1, 2], [3, 4]]
+const arrOfArr: (number | boolean)[][] = [[1, true], [false, 4]]
 arrOfArr.push([5, true])
 console.log(arrOfArr);
 
