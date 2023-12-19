@@ -27,7 +27,7 @@ const testAdmin: Admin = {
     role: 'admin'
 }
 
-function login(user: {login: string, password: string}) {
+export function login(user: {login: string, password: string}) {
     if (user.login && user.login !== '') return
 
     if (user.login && user.login !== '') {

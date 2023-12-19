@@ -51,3 +51,9 @@ function unGrade(user: {level: Grades}) {
         user.level = Grades.Sinior
     }
 }
+
+const lead: Devoloper[] = [{
+    level: 'junior',
+    login: 'admin',
+    skills: ['HTML', 'SCSS', 'JS', 'GIT']
+}]
