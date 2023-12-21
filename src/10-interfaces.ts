@@ -4,9 +4,9 @@ interface User {
     passowrd: string
 }
 
-// interface User {
-//     isOinline?: boolean
-// }
+interface User {
+    isOinline?: boolean
+}
 
 interface Window {
     isAuth?: boolean
@@ -34,3 +34,5 @@ interface Developer extends Employee {
 
 // const worker: Developer = {}
 // class MyDeveloper implements Developer {}
+
+export default developer
