@@ -11,7 +11,7 @@ interface User {
 interface Window {
     isAuth?: boolean
 }
-window.isAuth = false
+// window.isAuth = false
 
 interface Person {
     readonly firstName: string
