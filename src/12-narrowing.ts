@@ -40,3 +40,5 @@ function move(animal: FishAlias | BirdAlias) {
 
     return animal.fly()
 }
+
+export {}
