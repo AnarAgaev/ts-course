@@ -77,3 +77,5 @@ type userArr2 = [
 ]
 
 type mainArrUser = userArr1 & userArr2
+
+export {}
