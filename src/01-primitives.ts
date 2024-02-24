@@ -30,3 +30,5 @@ mm.tuUpperCase();
 let xx: unknown = 2;
 // xx.toUpperCase(); // is error
 if (typeof xx === 'string') xx.toUpperCase();
+
+export {}
