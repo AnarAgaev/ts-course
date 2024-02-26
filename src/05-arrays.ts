@@ -33,3 +33,5 @@ printArr(arrOfArr)
 
 // TypeScript уже знает про Interface Car
 const newCarArr: Car[] = [{wheel: 3, type: 'Sedan', brand: 'Porshe'}]
+
+export {}
