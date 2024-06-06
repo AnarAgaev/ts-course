@@ -1,11 +1,11 @@
 interface User {
     readonly email: string
     readonly login: string
-    passowrd: string
+    password: string
 }
 
 interface User {
-    isOinline?: boolean
+    isOnline?: boolean
 }
 
 interface Window {
@@ -17,11 +17,11 @@ interface Person {
     readonly firstName: string
     lastName: string
     phone?: string
-    bearthday: number
+    birthday: number
 }
 
 interface Employee extends User, Person {
-    constractStart: Date
+    constructStart: Date
 }
 
 interface Developer extends Employee {
@@ -35,4 +35,4 @@ interface Developer extends Employee {
 // const worker: Developer = {}
 // class MyDeveloper implements Developer {}
 
-export default developer
+export default Developer

@@ -1,9 +1,9 @@
 type Union1 = 'a' | 'b' | 'c' | 'd'
 type Union2 = 'a' | 'e' | 'c' | 'f'
 
-// Expample of the UnionOr has only unic properties from both parts (Union1 and Union2)
+// Example of the UnionOr has only uniq properties from both parts (Union1 and Union2)
 type UnionOr = Union1 | Union2
-let letterOr: UnionOr // All vairiants: a | b | c | d | e | i
+let letterOr: UnionOr // All variants: a | b | c | d | e | i
 
 // Example of the UnionAnd has only properties that in at both parent Unions
 type UnionAnd = Union1 & Union2
@@ -21,25 +21,25 @@ const varAsUnionObj: UnionAsObj = {
 type User = {
     readonly email: string
     readonly login: string
-    passowrd: string
+    password: string
 }
 
 type Person = {
     readonly firstName: string
     lastName: string
     phone?: string
-    bearthday: number
+    birthday: number
 }
 
 type Employee = User & Person
 
 const user: Employee = {
-    bearthday: 15,
+    birthday: 15,
     email: 'email',
     firstName: 'Agent',
     lastName: 'Smith',
     login: 'login',
-    passowrd: 'password',
+    password: 'password',
 }
 
 type Developer = {
@@ -55,7 +55,7 @@ let developerUser: Developer
 
 type user1 = {
     firstName: string
-} | 'adimn'
+} | 'admin'
 
 type user2 = {
     status: boolean

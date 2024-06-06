@@ -30,20 +30,20 @@ function average(...nums: number[]): number {
 // Practice of the function typing
 function slice(str: string, start: number, end?: number): string {
 
-    let accomulator: string = '';
+    let accumulator: string = '';
 
     end = end || str.length + 1;
 
     for (let i = 0; i < str.length; i++) {
         if (i >= start - 1 && i < end - 1) {
-            accomulator += str[i];
+            accumulator += str[i];
         }
     }
 
-    return accomulator;
+    return accumulator;
 }
 
-console.log(slice('accomulator', 3));
+console.log(slice('accumulator', 3));
 
 
 // Function from the teacher
@@ -64,3 +64,5 @@ function sliceTwo(str: string, start: number, end?: number): string {
 
     return newStr;
 }
+
+export default sliceTwo

@@ -12,3 +12,5 @@ const bool = head([true, false, false])
 console.log(str.toLocaleUpperCase)
 console.log(num*2)
 console.log(!bool)
+
+export {}
