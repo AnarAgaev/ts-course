@@ -1,4 +1,4 @@
-function getLength<T extends {length: number}>(arg: T) {
+function getLength <T extends {length: number}> (arg: T) {
     return arg.length
 }
 
@@ -10,7 +10,3 @@ getLength({length: 2})
 
 const tempObj = { variable: 'value', length: 1 }
 getLength(tempObj)
-
-
-// !!!
-// The is a special type. It's names object
