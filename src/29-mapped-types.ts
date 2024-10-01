@@ -25,11 +25,11 @@ function echoComputers(computers: PCListRecord) {
 
 // Reusable mapping types
 type PartOfWindow = {
-    [Key in 'document' | 'navigation' | 'screen' | 'load']?: Window[Key]
+    [Key in 'document' | 'navigation' | 'screen' | 'call']?: Window[Key]
 }
 
 const p: PartOfWindow = {
-    document: window.document
+    call: Window.call
 }
 
 export {}
