@@ -22,33 +22,4 @@ type SomeClassConstructorParametersTypes = ConstructorParameters<typeof SomeClas
 
 // И Parameters и ConstructorParameters возвращают кортеж с параметрами и их типами
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export {}
